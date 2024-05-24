@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> BOX HUNT</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1> BOX HUNT GAME</h1>
+        <main>
+            <section id="controls">
+                <button id="startBtn"> Start</button>
+                <button id="pauseBtn"> Pause</button>
+                <button id="resetBtn"> Reset</button>
+                <div id="timer">Time:0s</div>
+            </section>
+
+            <section id="game-area">
+                <div class="grid" id="grid"></div>
+            </section>
+            
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                        <th>Mouse Click Number</th>
+                        <th>Reaction Time</th>
+                    </tr>
+                </thead>
+
+                <tbody id="resultBody"></tbody>
+            </table>
+        </main>
+        <script src="ui.js"></script>
+    </body>
+
+</html>
