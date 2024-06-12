@@ -8,7 +8,7 @@ let elapsedTime = 0;
 
 function createGrid() {
     const grid = document.getElementById('grid');
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 16; i++) {
         const gridItem = document.createElement('div');
         gridItem.classList.add('grid-item');
         gridItem.addEventListener('click', () => boxClicked(i));
